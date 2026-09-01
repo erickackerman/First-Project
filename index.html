@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title> <em>Erick Developer</em></title>
-    <meta name="author" content="Erick">
-    <meta name="description" content="My first website about products hightech">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erick">
+    <meta name="description" content="My first website">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:; style-src 'self' https:; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; frame-ancestors 'none'; base-uri 'self';">
+    <title>Erick Developer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="security.js" defer></script>
 </head>
 
 <body>
-
     <header>
         <h1>Erick Developer</h1>
-        <p><b>This is my first project</b></p>
-        <p>I'm Erick, I'm 20 years old, I'm creating my first project. <b>And I wanna be a backend developer working with database, JavaScript and AI</b></p>
+        <p><strong>My first project</strong>
+        <H4> </p>This website is my first project, created to showcase my skills and share my journey.</p> </H4>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -25,63 +28,51 @@
     </header>
 
     <main>
-        <!-- Home section -->
-        <section id="home">
-            <h2><strong>Website was created to check my skills developing</strong></h2>
-            <p>Hello, I'm Erick and I'm developing my first website</p>
-            <img src="https://t.ctcdn.com.br/2hLxz1pbLt2Skv0P1y7w_DFE90I=/640x360/smart/i1054587.png" 
-                 alt="High tech product" 
-                 width="600" 
-                 height="400">
-        </section>
-
-        <!-- About section -->
+ 
         <section id="about">
             <h2>About Me</h2>
-            <p>I'm Erick, a passionate developer eager to learn and grow in the world of technology. <p> I have a strong interest in backend development, databases, JavaScript, and AI. This website is my first project, created to showcase my skills and share my journey as I continue to develop my expertise in these areas.</p>
+            <p>My name is Erick, I'm 21 years old and I'm a junior developer eager to learn and grow in the world of technology and im developing my first project</p>
+
+            <p>This website is my first project, created to explore my skills and share my journey as i develop my experience in these areas.</p>
             <h3>Interests</h3>
-            <p>Here are some of the technologies and areas I'm passionate about:</p>
+            <p>Here are some of the technologies and areas I'm studying about </p>
+
             <ul>
                 <li>Backend Development</li>
                 <li>Databases</li>
                 <li>JavaScript</li>
                 <li>Artificial Intelligence</li>
             </ul>
-        </section>
 
-        <!-- Contact section -->
+        </section>   
+
         <section id="contact">
-            <h2>Contact</h2>
-            <p> talk to me!</p>
-            <p>Email: erickcomercial10@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/erickackerman" target="_blank">erickackerman</a></p>
-            <!-- Add more links as needed -->
-        </section>
+        
 
-        <!-- Rating and Feedback section -->
+            <h2> Contact </h2>
+            <p>Talk to me!</p>
+            <p>Email: erickcomercial10@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/erickackerman" target="_blank" rel="noopener noreferrer">erickackerman</a></p>
+        
+        </section>
+    
+
         <section>
             <h3>Rate the Site</h3>
             <form action="https://formspree.io/f/xykbpyeq" method="POST">
-                <input type="radio" value="1" id="rate1" name="rating">
-                <label for="rate1">1</label>
-                <input type="radio" value="2" id="rate2" name="rating">
-                <label for="rate2">2</label>
-                <input type="radio" value="3" id="rate3" name="rating">
-                <label for="rate3">3</label>
-                <input type="radio" value="4" id="rate4" name="rating">
-                <label for="rate4">4</label>
-                <input type="radio" value="5" id="rate5" name="rating">
-                <label for="rate5">5</label>
-                <input type="radio" value="6" id="rate6" name="rating">
-                <label for="rate6">6</label>
-                <input type="radio" value="7" id="rate7" name="rating">
-                <label for="rate7">7</label>
-                <input type="radio" value="8" id="rate8" name="rating">
-                <label for="rate8">8</label>
-                <input type="radio" value="9" id="rate9" name="rating">
-                <label for="rate9">9</label>
-                <input type="radio" value="10" id="rate10" name="rating">
-                <label for="rate10">10</label>
+                <fieldset>
+                    <legend>Choose a rating</legend>
+                    <label><input type="radio" name="rating" value="1"> 1</label>
+                    <label><input type="radio" name="rating" value="2"> 2</label>
+                    <label><input type="radio" name="rating" value="3"> 3</label>
+                    <label><input type="radio" name="rating" value="4"> 4</label>
+                    <label><input type="radio" name="rating" value="5"> 5</label>
+                    <label><input type="radio" name="rating" value="6"> 6</label>
+                    <label><input type="radio" name="rating" value="7"> 7</label>
+                    <label><input type="radio" name="rating" value="8"> 8</label>
+                    <label><input type="radio" name="rating" value="9"> 9</label>
+                    <label><input type="radio" name="rating" value="10"> 10</label>
+                </fieldset>
                 <input type="submit" value="Submit Rating">
             </form>
 
@@ -92,23 +83,28 @@
             </form>
         </section>
 
-        <!-- Upload section -->
+        <section id="projects">
+
+            <h2>My Projects </h2>
+            <h7> Actually im working on a Project of my own brand of clothes and watches </h7>
+
+            <p><a href="https://github.com/erickackerman" target="_blank" rel="noopener noreferrer">GitHub</a> |
+               <a href="https://erickackerman.github.io/First-Project/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+        </section>
+
         <section>
             <h2>Upload Some File to Help Me Improve or Study About Code</h2>
             <p>If you'd like to share files, projects, or resources for study, please use this form:</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScIWlqPjBivy7W5Y5CQj1leastuA61Zw3_0WnizPGeWxQVfwQ/viewform?usp=publish-editor" target="_blank">Submit Files Here</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScIWlqPjBivy7W5Y5CQj1leastuA61Zw3_0WnizPGeWxQVfwQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Submit Files Here</a>
         </section>
-    </main>
-        </section>
+
     </main>
 
     <footer>
-
-     
         <p>Erick Developersss 2026</p>
-        <p><strong>erickackerman</strong> on github <3 </p>
+        <p><strong>erickackerman</strong> on GitHub </p>
     </footer>
-
+ 
 </body>
 
 </html>
