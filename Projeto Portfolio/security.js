@@ -22,11 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      if (uploadPreset.startsWith('YOUR_')) {
-        status.textContent = 'Add your unsigned Cloudinary upload preset in security.js first.';
-        return;
-      }
-
       const formData = new FormData();
       formData.append('file', file);
       formData.append('upload_preset', uploadPreset);
